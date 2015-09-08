@@ -1,0 +1,188 @@
+
+include/net.h,216
+#define __NET_H2,16
+#define PRINT_ERR(13,245
+#define SERVER_PORT 14,282
+#define LENGTH_OF_LISTEN_QUEUE 15,307
+#define BUFFER_SIZE 16,341
+#define FILE_NAME_MAX_SIZE 17,366
+static inline int SendToServer(20,417
+
+include/socket_server.h,30
+#define _SOCKET_SERVER_H2,25
+
+include/serial.h,186
+#define _SERIAL_H_2,19
+#define SERIAL0 6,58
+#define SERIAL1 7,87
+#define SERIAL2 8,116
+#define SERIAL3 9,145
+#define SERIAL4 10,174
+#define SERIAL5 11,203
+#define SERIAL6 12,232
+
+include/queue.h,389
+#define __QUEUE_H_2,19
+#define MAXELEMENTS 5,82
+#define UNIT 6,106
+#define FileNameLength 7,125
+  char FileName[FileName10,168
+  long unsigned int length;11,201
+}PrinterRecord;PrinterRecord12,229
+  pthread_mutex_t lock;15,262
+  int Capacity;16,286
+  int Size;17,302
+  int Front;18,314
+  int Rear;19,327
+  PrinterRecord *Record[Record20,339
+}QueueRecord;QueueRecord21,377
+
+include/config.h,276
+#define _CONFIG_H_2,19
+#define  SUCCESS 6,58
+#define  FAILURE 7,101
+#define  FILENAME_NOTEXIST 9,145
+#define  SECTIONNAME_NOTEXIST 10,211
+#define  KEYNAME_NOTEXIST 11,268
+#define  STRING_LENNOTEQUAL 12,325
+#define  STRING_NOTEQUAL 13,394
+#define  STRING_EQUAL 14,466
+
+include/record.h,103
+#define _RECORD_H_2,19
+#define RECORDFILEPATH 3,38
+#define HeadLength 4,86
+#define EndLength 6,108
+
+include/util.h,145
+#define _UTIL_H_2,17
+struct serialConf 4,35
+    int speed;5,55
+    int bits;6,70
+    int fctl;7,84
+    char event;8,98
+    int stop;9,114
+
+include/log.h,43
+#define _LOG_H_2,16
+#define LOGFILE 4,33
+
+include/timer.h,23
+#define _TIMER_H_2,18
+
+include/general.h,50
+#define __GENERAL_H__2,22
+#define PRINTERR(4,61
+
+queue.c,261
+QueueRecord *FileQueue FileQueue6,115
+int IsEmpty(7,146
+int IsFull(11,207
+int MakeEmpty(15,281
+static int Succ(22,410
+int Enqueue(30,538
+PrinterRecord* Dequeue(51,1040
+int CreatAndPushRecord(73,1646
+int CreatQueue(100,2355
+void DisposeQueue(116,2679
+
+config.c,172
+#define CONFIGFILE 11,197
+int ConfigSerial(24,385
+int GetConfigStringValue(72,1508
+int CompareString(126,2676
+int GetKeyValue(149,3054
+int GetConfigIntValue(219,4482
+
+serial.c,121
+int SerialOpen(11,190
+void SerialClose(28,500
+int SerialOpt(33,557
+int SerialRead(163,3898
+int SerialWrite(174,4133
+
+netbak.c,198
+#define SERVER_PORT 13,221
+#define LENGTH_OF_LISTEN_QUEUE 14,246
+#define BUFFER_SIZE 15,280
+#define FILE_NAME_MAX_SIZE 16,305
+int client_init(18,337
+int server_init(53,1462
+int main(115,3413
+
+record.c,528
+#define FILENAMEPREFIX 16,337
+const char aibao_head[aibao_head18,377
+const char aibao_end[aibao_end19,469
+FILE *CurrentFile CurrentFile20,583
+pthread_mutex_t FileLock;21,609
+int  IsHead(23,653
+int IsEnd(35,825
+int RecordFileInit(71,1684
+int ReadRecordFileNum(88,1980
+int WriteRecordFileNum(122,2836
+int WriteDataToRecordFile(135,3115
+int ReadDataFromRecordFile(144,3295
+static FILE* CreatDataRecordFile(155,3504
+int GenerateRecordFileName(162,3690
+int WriteARecord(181,4243
+    int ReadPrinterRecord(298,8125
+
+socket_server.c,63
+#define SERVERNAME 7,126
+void *server_init(server_init8,167
+
+recordlist.c,578
+#define offset_of(2,19
+#define container_of6,119
+((type*type7,140
+struct list_head9,195
+  struct list_head *next;next11,214
+  struct list_head *prev;prev12,240
+#define LIST_HEAD_INIT(14,269
+#define LIST_HEAD(15,317
+static inline void INIT_LIST_HEAD(17,390
+static inline void __list_add(22,494
+static inline void list_add(29,679
+static inline void list_add_tail(33,794
+static inline void __list_del(37,915
+static inline void list_del(42,1039
+struct RecordFileStruct46,1127
+  char filename[filename48,1153
+  FILE *file;file49,1174
+  list_head entry;50,1188
+
+net.c,43
+int server_init(38,1341
+int main(96,3212
+
+timer.c,19
+int msSleep(9,147
+
+log.c,80
+static int Logfd 8,253
+int LOGInit(10,276
+void LOGD(13,299
+void LOGE(26,680
+
+main.c,711
+pthread_t threadPCSerial;21,466
+pthread_t threadPrinterSerial;22,492
+pthread_t threadSocket;23,523
+pthread_t threadServerForgoahead;24,547
+#define FAILED 25,581
+#define BUF_MAX 26,613
+    int data_length;29,652
+    pthread_mutex_t data_lock;30,673
+    char data[data31,704
+} MESSAGE;32,728
+MESSAGE Message;34,740
+int fd_socket;37,793
+static int SerialReadfd;38,808
+static int SerialWritefd;39,833
+int SerialInit(43,928
+void *ReadRecordFileAndSendToSocket(ReadRecordFileAndSendToSocket87,2286
+void *threadSerialPCPrinterFunction(threadSerialPCPrinterFunction143,4094
+void *threadSerialPrinterPCFunction(threadSerialPrinterPCFunction203,6283
+void pthreadSerial(257,8411
+int main(341,10871

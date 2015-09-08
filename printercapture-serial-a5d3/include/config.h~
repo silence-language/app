@@ -1,0 +1,9 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+//#include "util.h"
+
+int readConfigFile(const char *path);
+int ConfigSerial(struct serialConf *serialConf);
+
+#endif
