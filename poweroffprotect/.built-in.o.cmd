@@ -1,0 +1,1 @@
+cmd_/home/tao/work/st9000/taoxianchong/poweroffprotect/built-in.o :=  rm -f /home/tao/work/st9000/taoxianchong/poweroffprotect/built-in.o; arm-buildroot-linux-uclibcgnueabihf-ar rcsD /home/tao/work/st9000/taoxianchong/poweroffprotect/built-in.o
