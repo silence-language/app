@@ -1,0 +1,45 @@
+userfile.lo: userfile.c ../include/config.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/xlocale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h
+
+../include/config.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/xlocale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h:

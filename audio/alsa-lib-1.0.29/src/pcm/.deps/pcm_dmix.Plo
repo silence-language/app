@@ -1,0 +1,452 @@
+pcm_dmix.lo: pcm_dmix.c \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_mutex.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/pthread.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sched.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sched.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/xlocale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/setjmp.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_pthread.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stdarg.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/signum.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/siginfo.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigaction.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigcontext.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sigcontext.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigstack.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ucontext.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/procfs.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/time.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/user.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigthread.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/stat.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stat.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/ctype.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_touplow.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/grp.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ioctl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctls.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctls.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctls.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/ioctl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ttydefaults.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/mman.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/mman.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/mman-common.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/shm.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ipc.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ipc.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/shm.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sem.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sem.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/wait.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/resource.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/resource.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/socket.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/uio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include-fixed/limits.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include-fixed/syslimits.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/limits.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/limits.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/xopen_lim.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket_type.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sockaddr.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/socket.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/socket.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sockios.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/sockios.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/un.h \
+ pcm_direct.h pcm_local.h ../../include/local.h ../../include/config.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/poll.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/poll.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/int-ll64.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/bitsperlong.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/posix_types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/stddef.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/posix_types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/posix_types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/dlfcn.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/dlfcn.h \
+ ../../include/sound/asound.h ../../include/sound/asoundef.h \
+ ../../include/alsa-symbols.h ../../include/version.h \
+ ../../include/global.h ../../include/input.h ../../include/output.h \
+ ../../include/error.h ../../include/conf.h ../../include/pcm.h \
+ ../../include/pcm_plugin.h ../../include/rawmidi.h ../../include/timer.h \
+ ../../include/hwdep.h ../../include/control.h ../../include/mixer.h \
+ ../../include/seq_event.h ../../include/seq.h \
+ ../../include/sound/asequencer.h ../../include/seqmid.h \
+ ../../include/seq_midi_event.h ../../include/list.h interval.h \
+ interval_inline.h mask.h mask_inline.h pcm_dmix_generic.c
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/pthread.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sched.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sched.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/xlocale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/setjmp.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stdarg.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/signum.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/siginfo.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigaction.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigcontext.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sigcontext.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigstack.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ucontext.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/procfs.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/time.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/user.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigthread.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/stat.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stat.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/ctype.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_touplow.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/grp.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ioctl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctls.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctls.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctls.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/ioctl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ttydefaults.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/mman.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/mman.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/mman-common.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/shm.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ipc.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ipc.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/shm.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sem.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sem.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/wait.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/resource.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/resource.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/socket.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/uio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include-fixed/limits.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include-fixed/syslimits.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/limits.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/local_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/limits.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/xopen_lim.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket_type.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sockaddr.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/socket.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/socket.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sockios.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/sockios.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/un.h:
+
+pcm_direct.h:
+
+pcm_local.h:
+
+../../include/local.h:
+
+../../include/config.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/poll.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/poll.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/bitsperlong.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/posix_types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/stddef.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/posix_types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/posix_types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/dlfcn.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/dlfcn.h:
+
+../../include/sound/asound.h:
+
+../../include/sound/asoundef.h:
+
+../../include/alsa-symbols.h:
+
+../../include/version.h:
+
+../../include/global.h:
+
+../../include/input.h:
+
+../../include/output.h:
+
+../../include/error.h:
+
+../../include/conf.h:
+
+../../include/pcm.h:
+
+../../include/pcm_plugin.h:
+
+../../include/rawmidi.h:
+
+../../include/timer.h:
+
+../../include/hwdep.h:
+
+../../include/control.h:
+
+../../include/mixer.h:
+
+../../include/seq_event.h:
+
+../../include/seq.h:
+
+../../include/sound/asequencer.h:
+
+../../include/seqmid.h:
+
+../../include/seq_midi_event.h:
+
+../../include/list.h:
+
+interval.h:
+
+interval_inline.h:
+
+mask.h:
+
+mask_inline.h:
+
+pcm_dmix_generic.c:

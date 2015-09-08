@@ -1,0 +1,211 @@
+iecbits.o: iecbits.c \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_mutex.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/pthread.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sched.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sched.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/setjmp.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_pthread.h \
+ /opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stdarg.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/asoundlib.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/poll.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/poll.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h \
+ /opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/asoundef.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/version.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/global.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/input.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/output.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/error.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/conf.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/pcm.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/rawmidi.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/timer.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/hwdep.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/control.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/mixer.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/seq_event.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/seq.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/seqmid.h \
+ /home/tao/work/sama5d3/pos/audio/install/include/alsa/seq_midi_event.h
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stddef.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/pthread.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sched.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sched.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/setjmp.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/opt/host_builtroot_latest/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.8.3/include/stdarg.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/asoundlib.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/poll.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/poll.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/host_builtroot_latest/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/asoundef.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/version.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/global.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/input.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/output.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/error.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/conf.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/pcm.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/rawmidi.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/timer.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/hwdep.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/control.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/mixer.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/seq_event.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/seq.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/seqmid.h:
+
+/home/tao/work/sama5d3/pos/audio/install/include/alsa/seq_midi_event.h:

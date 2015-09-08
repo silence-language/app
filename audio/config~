@@ -1,0 +1,4 @@
+CC=arm-buildroot-linux-uclibcgnueabihf-gcc ./configure --host=arm-buildroot-linux-uclibcgnueabihf --with-versioned=no --prefix=/home/tao/work/sama5d3/pos/audio/install/
+
+CC=arm-buildroot-linux-uclibcgnueabihf-gcc ./configure --host=arm-buildroot-linux-uclibcgnueabihf --prefix=/home/tao/work/sama5d3/pos/audio/install/ --with-alsa-inc-prefix=/home/tao/work/sama5d3/pos/audio/install/include/ --with-alsa-prefix=/home/tao/work/sama5d3/pos/audio/install/lib/ --disable-xmlto --disable-nls --disable-alsamixer
+
